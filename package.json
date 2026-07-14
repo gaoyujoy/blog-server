@@ -22,12 +22,19 @@
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-proposal-decorators": "^7.29.0",
+    "@babel/plugin-transform-class-properties": "^7.27.1",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-typescript": "^7.28.5",
+    "@eslint/js": "^9.32.0",
     "@nestjs/cli": "^11.0.0",
     "@nestjs/schematics": "^11.0.0",
     "@nestjs/testing": "^11.0.0",
     "@types/express": "^5.0.1",
     "@types/node": "^22.13.10",
-    "eslint": "^9.22.0",
+    "eslint": "^9.32.0",
+    "typescript-eslint": "^8.38.0",
     "typescript": "^5.8.2"
   }
 }
